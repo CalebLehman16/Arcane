@@ -7,6 +7,8 @@ Team Members:
 
 Java Version: 17.0.9
 
+Made in intellij
+
 Comments / Descriptions:
 
 Similar to the homework 4 arcane, but with additions such as a mazeObserver that ouputs the following pop out screen shown below, an Event Bus that utilizes a Singleton Observer, and an Audible Observer shown in the video below. For some reason, I was not able to upload the video with sound; when the final test is run on macOS, sound is displayed by the audible Observer. 
