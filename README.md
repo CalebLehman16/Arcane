@@ -22,7 +22,7 @@ https://github.com/CSCI-4448-5448-OOAD-Spring2024/homework-2-arcane-setup-CalebL
 
 
 
-Code Coverage:
+Code Coverage of unit tests:
 ![hw_5_coverage](https://github.com/CSCI-4448-5448-OOAD-Spring2024/homework-2-arcane-setup-CalebLehman16/assets/123127447/c76f9738-cc44-46c1-9375-bbd8337bd480)
 
 Sequence Diagram:
