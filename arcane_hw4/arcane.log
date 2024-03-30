@@ -1,0 +1,104 @@
+Turn: 1
+NorthWest: 
+North: 
+NorthEast: 
+Food: cookie
+West: 
+Center: 
+East: 
+Adventurer adventurer is here. Health: 5.0
+Food: pasta
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 8.0
+Creature demon is here. Health: 15.0
+SouthEast: 
+
+Turn: 2
+NorthWest: 
+North: 
+NorthEast: 
+Food: cookie
+West: 
+Center: 
+East: 
+Adventurer adventurer is here. Health: 6.0
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 7.5
+Creature demon is here. Health: 14.5
+SouthEast: 
+
+Turn: 3
+NorthWest: 
+North: 
+NorthEast: 
+Adventurer adventurer is here. Health: 6.0
+Food: cookie
+West: 
+Center: 
+East: 
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 7.0
+Creature demon is here. Health: 12.0
+SouthEast: 
+
+Turn: 4
+NorthWest: 
+North: 
+NorthEast: 
+Adventurer adventurer is here. Health: 7.0
+West: 
+Center: 
+East: 
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 6.5
+Creature demon is here. Health: 7.5
+SouthEast: 
+
+Turn: 5
+NorthWest: 
+North: 
+NorthEast: 
+West: 
+Center: 
+Adventurer adventurer is here. Health: 7.0
+East: 
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 6.0
+Creature demon is here. Health: 7.0
+SouthEast: 
+
+Turn: 6
+NorthWest: 
+North: 
+NorthEast: 
+West: 
+Center: 
+East: 
+Adventurer adventurer is here. Health: 7.0
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 5.5
+Creature demon is here. Health: 4.5
+SouthEast: 
+
+Turn: 7
+NorthWest: 
+North: 
+NorthEast: 
+West: 
+Center: 
+Adventurer adventurer is here. Health: 7.0
+East: 
+SouthWest: 
+South: 
+Adventurer knight is here. Health: 5.0
+Creature demon is here. Health: 1.0
+SouthEast: 
+
+Creature demon is dead!
+Adventurers win!

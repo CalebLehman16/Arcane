@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArcaneTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-18T05:10:37" hostname="Calebs-MacBook-Pro.local" time="57.423">
+  <properties/>
+  <testcase name="testMazeObserver()" classname="ArcaneTests" time="57.423"/>
+  <system-out><![CDATA[23:10:37,656 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.4.14
+23:10:37,656 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - No custom configurators were discovered as a service.
+23:10:37,656 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+23:10:37,657 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+23:10:37,658 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+23:10:37,658 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+23:10:37,660 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+23:10:37,660 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+23:10:37,660 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+23:10:37,660 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+23:10:37,661 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/caleb/Desktop/arcane_hw4/build/resources/main/logback.xml]
+23:10:37,661 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@7862f56 - Resource [logback.xml] occurs multiple times on the classpath.
+23:10:37,661 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@7862f56 - Resource [logback.xml] occurs at [file:/Users/caleb/Desktop/arcane_hw4/build/resources/main/logback.xml]
+23:10:37,661 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@7862f56 - Resource [logback.xml] occurs at [jar:file:/Users/caleb/Desktop/arcane_hw4/libs/csci4448.gameLayout-1.3.0.jar!/logback.xml]
+23:10:37,687 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+23:10:37,687 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:10:37,689 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:10:37,695 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [Same_As_Println]
+23:10:37,695 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:10:37,695 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:10:37,696 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [Game_Status]
+23:10:37,696 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:10:37,696 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:10:37,696 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [File_Output]
+23:10:37,696 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+23:10:37,697 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:10:37,697 |-INFO in ch.qos.logback.core.FileAppender[File_Output] - File property is set to [arcane.log]
+23:10:37,698 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to ERROR
+23:10:37,698 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+23:10:37,698 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [csci.ooad.arcane] to INFO
+23:10:37,699 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [csci.ooad.arcane] to false
+23:10:37,699 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [Same_As_Println] to Logger[csci.ooad.arcane]
+23:10:37,699 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [csci.ooad.arcane.entity.Arcane] to INFO
+23:10:37,699 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [csci.ooad.arcane.entity.Arcane] to false
+23:10:37,699 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [Game_Status] to Logger[csci.ooad.arcane.entity.Arcane]
+23:10:37,699 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [File_Output] to Logger[csci.ooad.arcane.entity.Arcane]
+23:10:37,699 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@3a12c404 - End of configuration.
+23:10:37,699 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1941a8ff - Registering current configuration as safe fallback point
+23:10:37,699 |-INFO in ch.qos.logback.classic.util.ContextInitializer@517d4a0d - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 39 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+?[36mTurn: 1
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mFood: cookie
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mEast: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 5.0
+?[0;39m?[36mFood: pasta
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 8.0
+?[0;39m?[36mCreature demon is here. Health: 15.0
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mTurn: 2
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mFood: cookie
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mEast: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 6.0
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 7.5
+?[0;39m?[36mCreature demon is here. Health: 14.5
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mTurn: 3
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 6.0
+?[0;39m?[36mFood: cookie
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mEast: 
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 7.0
+?[0;39m?[36mCreature demon is here. Health: 12.0
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mTurn: 4
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 7.0
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mEast: 
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 6.5
+?[0;39m?[36mCreature demon is here. Health: 7.5
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mTurn: 5
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 7.0
+?[0;39m?[36mEast: 
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 6.0
+?[0;39m?[36mCreature demon is here. Health: 7.0
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mTurn: 6
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mEast: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 7.0
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 5.5
+?[0;39m?[36mCreature demon is here. Health: 4.5
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mTurn: 7
+?[0;39m?[36mNorthWest: 
+?[0;39m?[36mNorth: 
+?[0;39m?[36mNorthEast: 
+?[0;39m?[36mWest: 
+?[0;39m?[36mCenter: 
+?[0;39m?[36mAdventurer adventurer is here. Health: 7.0
+?[0;39m?[36mEast: 
+?[0;39m?[36mSouthWest: 
+?[0;39m?[36mSouth: 
+?[0;39m?[36mAdventurer knight is here. Health: 5.0
+?[0;39m?[36mCreature demon is here. Health: 1.0
+?[0;39m?[36mSouthEast: 
+?[0;39m?[36m
+?[0;39m?[36mCreature demon is dead!
+?[0;39m?[36mAdventurers win!
+?[0;39m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
